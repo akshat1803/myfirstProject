@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codebase Helping You Succeed</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="codebase.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon"
+        href="data:image/jpeg;base64,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"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="https://www.codebase.com/wp-content/themes/codebase-theme/img/logo/codebase-2.png" alt="">
+        </div>
+        <div class="navbar">
+            <ul class="basee">
+                <li><a href="http://127.0.0.1:5500/service/service.html">Services</a></li>
+                <li><a href="http://127.0.0.1:5500/apply/apply%20for%20job.html">Apply for Jobs</a></li>
+                <li><a href="http://127.0.0.1:5500/contact/contact.html">Contact Us</a></li>
+                <li><a class="hp" style="color: aliceblue;" href="">Hire Developers</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="hire">
+            <h1>The right developers for your project.</h1>
+            <p>Codebase is an outsourcing staffing solution that can integrate with your team to help you create, design
+                and
+                scale on time and on budget.</p>
+
+            <a href="">Hire Developers</a>
+        </div>
+
+        <div>
+            <img src="https://www.codebase.com/wp-content/uploads/2022/03/rCO1kSK.png" alt="image">
+        </div>
+    </div>
+    <div class="hire2">
+        <h4>Many companies trust Codebase to hire developers every day</h4>
+    </div>
+    <div class="box">
+        <div class="imbox1">
+            <img src="https://www.codebase.com/wp-content/uploads/2022/11/dree_logo.png" alt="">
+        </div>
+        <img src="https://www.codebase.com/wp-content/uploads/2022/07/My-project-e1669037623268.png" alt="">
+        <div class="imbox">
+            <img src="https://www.codebase.com/wp-content/uploads/2022/09/Color_Positive_Logo_150x81449.png" alt="">
+        </div>
+        <img src="https://www.codebase.com/wp-content/uploads/2022/04/bluestar.svg" alt="">
+        <img src="https://www.codebase.com/wp-content/uploads/2022/07/CAL-LOGO-DARK.png" alt="">
+    </div>
+    <div class="Meet">
+        <h3>Meet the Talent</h3>
+    </div>
+    <div class="main2" data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
+        data-aos-anchor-placement="top-center">
+        <div class="box1">
+            <img src="https://www.codebase.com/wp-content/uploads/2022/05/MadhukarRagaji-e1670316382751.png" alt="">
+            <h5>Madhukar</h5>
+            <p>Senior Full-stack Developer</p>
+            <p1>Madhukar has over 4 years of experience on HTML, CSS, ReactJS, C#, .Net and MS SQL Server.</p1>
+        </div>
+        <div class="box2">
+            <img src="https://www.codebase.com/wp-content/uploads/2022/05/Ashwini-e1670316354547.png" alt="">
+            <h5>Ashwini</h5>
+            <p>Quality Analyst</p>
+            <p1>With 3 years of experience, Ashwini excels in Manual Testing, Database Queries, Requirement
+                Gathering,and Documentation. </p1>
+        </div>
+        <div class="box3">
+            <img src="https://www.codebase.com/wp-content/uploads/2022/05/Amar-e1670316312190.png" alt="">
+            <h5>Amar</h5>
+            <p>Senior Quality Analyst</p>
+            <p1>Amar has 4 years of experience in Manual Testing, Automation Testing (Web+Mobile) and Database Testing.
+            </p1>
+        </div>
+    </div>
+    <div class="main3"></div>
+    <div class="head">
+        <h3>Our commitment to you</h3>
+
+        <div class="x" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+            data-aos-anchor-placement="top-center">
+            <div class="our1">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/icon.png" alt="">
+                <h5>Money Back Guaranteed</h5>
+                <p>30 days money back guaranteed if you are not satisfied with the results.</p>
+            </div>
+            <div class="our2">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/b.png" alt="">
+                <h5>Affordable</h5>
+                <p>With our remote talent base we get you the same productivity for half the price.</p>
+            </div>
+            <div class="our3">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/a.png" alt="">
+                <h5>Fast</h5>
+                <p>We quickly match you with the best candidates, often within the first week.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="main4">
+        <h3>Top talent for your most important initiatives</h3>
+        <div class="detail">
+            <div class="req0">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/account.png" alt="">
+                <h4>Codebase Consultants</h4>
+                <p>Codebase Project Consultants assemble managed teams of seasoned experts for your most urgent business
+                    needs.</p>
+
+            </div>
+            <div class="req">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/reader.png" alt="">
+                <h4>Product Managers</h4>
+                <p>Digital product managers, scrum product owners with expertise in numerous industries like banking,
+                    healthcare, e-commerce and more.</p>
+            </div>
+            <div class="req1">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/documents.png" alt="">
+                <h4>Project Managers</h4>
+                <p>Data and technical project managers, scrum masters with expertise in numerous PM tools, frameworks
+                    and styles.</p>
+            </div>
+        </div>
+        <div class="detail1">
+            <div class="req2">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/growth-graph-1.png" alt="">
+                <h4>Finance Experts</h4>
+                <p>Experts in financial modeling & valuation startup funding, interim CFO work and market sizing.</p>
+            </div>
+            <div class="req3">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/Edit.png" alt="">
+                <h4>Designers</h4>
+                <p>Expert UI, UX, Visual, and Interaction designers as well as a wide range of illustrators, animators
+                    and more.</p>
+            </div>
+            <div class="req4">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/Arrow.png" alt="">
+                <h4>Developers</h4>
+                <p>Seasoned software engineers, coders and architects with expertise across hundreds of technologies.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="main5">
+        <h3>How to hire through us</h3>
+        <div class="right">
+            <div class="base">
+                <img src="https://www.codebase.com/wp-content/uploads/2022/03/Group.png" alt="">
+            </div>
+            <div class="nine">
+                <div class="zero">
+                    <div class="point">
+                        <h1>1</h1>
+                    </div>
+                    <div class="fit">
+                        <h5>The Right Fit, Guaranteed</h5>
+                        <p>Work with your new developer for a trial period (pay only if satisfied), ensuring they’re the
+                            right fit before starting the engagement. </p>
+                    </div>
+                </div>
+
+                <div class="zero">
+                    <div class="point">
+                        <h1>2</h1>
+                    </div>
+                    <div class="fit">
+                        <h5>Work with Hand-Selected Talent</h5>
+                        <p>Within days, we’ll introduce you to the right developer for your project. Average time to
+                            match is under 24 hours. </p>
+                    </div>
+
+                </div>
+                <div class="zero">
+                    <div class="point">
+                        <h1>3</h1>
+                    </div>
+                    <div class="fit">
+                        <h5>Talk to One of Our Industry Experts</h5>
+                        <p>A Codebase director of engineering will work with you to understand your goals, technical
+                            needs and team dynamics.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="join">
+        <h3>Join us to unleash the world’s untapped human potential</h3>
+        <div class="display">
+            <div class="joinnn">
+                <a href="">Hire Developers</a>
+            </div>
+            <span class="or" style="color: aliceblue; font-size: 18px;">OR</span>
+            <div class="job">
+                <a href="">Apply For Job</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <div class="tm">
+            <img src=" https://www.codebase.com/wp-content/uploads/2022/03/Codebase_White_transparent-300x169.png"
+                alt="">
+
+        </div>
+        <div class="h">
+            <hr>
+        </div>
+        <div class="social">
+            <div class="icon">
+                <span><a href=""><i class="fa-brands fa-facebook-f"></i></a></span>
+                <span><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+                <span><a href=""><i class="fa-brands fa-linkedin-in"></i></a></span>
+                <span><a href=""><i class="fa-brands fa-twitter"></i></a></span>
+                <span><a href=""><i class="fa-brands fa-youtube"></i></a></span><br>
+
+                <span>© 2023 Codebase, LLC. All rights reserved.</span><br>
+                <span>© 2023 Codebase, LLC. All rights reserved.</span>
+
+            </div>
+
+            <div class="add">
+                <a href="">Services</a>
+                <a href="">Contact Us</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

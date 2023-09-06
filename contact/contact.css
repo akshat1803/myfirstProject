@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 130px;
+
+}
+
+.logo {
+    width: 133px;
+    height: 27px;
+    /* background-color: black; */
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    /* padding: 20px 40px; */
+}
+
+.basee a {
+    text-decoration: none;
+    color: #2b2a2f;
+}
+
+.basee li {
+    padding: 20px;
+}
+
+.hp {
+    margin-top: 30px;
+    color: white;
+    /* justify-content: flex-start; */
+    /* padding: 20px; */
+    font-size: 23px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    background-color: #4e0fea;
+}
+
+.basee a {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.basee {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+
+
+}
+
+.contact {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    margin-top: 55px;
+    
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    /* text-align:left; */
+    justify-content: center;
+
+}
+
+.message {
+    margin: 0 293px auto;
+}
+
+.message input {
+    padding: 100px 361px;
+    border-radius: 4px;
+}
+
+.detail {
+    width: 100%;
+    height: 640px;
+    background-color: #5e2be1;
+    color: white;
+    margin-top: 45px;
+   
+}
+
+.help {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 60px;
+}
+
+.first input {
+    padding: 10px 135px;
+    margin: 10px 10px;
+    border-radius: 4px;
+}
+
+.first label {
+    margin-left: 10px;
+}
+
+.submit {
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+.submit button {
+    padding: 11px 18px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.branch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city {
+    /* margin: 50px 20px; */
+    border: #eeecec solid;
+    text-align: center;
+    padding: 70px 150px 20px;
+    /* padding-top: 90px; */
+    margin: 150px 0 0 0;
+    border-radius: 30px;
+    
+
+}
+
+.city p {
+    margin-top: 3px;
+    color: rgba(0,0,0,0.53);;
+}
+.city h3{
+    margin: 30px 0 10px 0;
+}
+
+.state {
+    margin-left: 35px;
+}
+
+.branch1 {
+    /* padding: 50px; */
+    position: relative;
+}
+
+.lake {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 222px;
+    top: 99px;
+
+}
+
+.lake img {
+    width: 100%;
+    height: auto;
+
+
+}
+.branch2
+{
+    position: relative;
+}
+.mumbai
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 99px;
+    right: 235px;
+}
+.mumbai img{
+width: 100%;
+height: auto;
+}
+.footer
+{
+    margin-top: 100px;
+    width: 100%;
+    height: 460px;
+    background-color: #4e0fea;
+}
+.tm 
+{
+    width: 200px;
+    height: 35px;
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0 0 0 180px;
+    text-decoration: underline white;
+
+}
+.tm img
+{
+    width: 100%;
+}
+.icon span a 
+{
+    font-size: 20px;
+    padding: 3px 5px;
+    margin: 3px 0;
+    color: white;
+    /* border: 1px solid white; */
+    margin: 3px;
+}
+.social{
+    justify-content:space-between ;
+    display: flex;
+    margin: 100px auto;
+    padding: 0 180px;
+    /* text-decoration: overline white; */
+}
+.add a{
+    text-decoration: none;
+    color: white;
+   
+}
+.icon span
+{
+    width: 20px;
+    color: #f1f1f1;
+    
+    font-size: small;
+}
+.line{
+    text-decoration: line white ;
+}
+.h
+{
+    margin-top: 100px;
+}
