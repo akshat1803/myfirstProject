@@ -1,0 +1,21 @@
+@media screen and (min-width:320px) and (max-width:570px) {
+    .nav
+    {
+        display: none;
+    }
+    .main
+    {
+        flex-direction: column;
+    }
+    .main2
+    {
+        flex-direction: column ;
+    }
+    .box{
+        display: none;
+    }
+    .x{
+        display: none;
+    }
+}
+
